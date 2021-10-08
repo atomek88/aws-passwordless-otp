@@ -6,7 +6,6 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "deploy": "aws s3 sync build/ s3://otp-login-app --acl public-read",
     "attribution": "generate-attribution && mv oss-attribution/attribution.txt LICENSE-THIRD && rm -rf oss-attribution"
   },
   "private": false,
